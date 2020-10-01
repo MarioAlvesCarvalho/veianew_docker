@@ -15,6 +15,7 @@ cp -rf ${VEIANEW}/veianew-master/* ${VEIANEW}/ ;
 chmod 775 ${VEIANEW}/*.sh ${VEIANEW}/*.vnw ;
 chown root.root ${VEIANEW}/*.sh ${VEIANEW}/*vnw ;
 rm -rf ${VEIANEW}/master.zip ${VEIANEW}/veianew-master ;
+ln -s /usr/local/apache22/VEIANEW/veianew /bin/veianew ;
 echo -e "" &&
 echo -e "" &&
 echo -e "" &&
