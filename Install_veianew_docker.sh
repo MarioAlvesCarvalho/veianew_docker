@@ -12,8 +12,8 @@ unzip -oq ${VEIANEW}/master.zip -d ${VEIANEW} &&
 sleep 1 &&
 rm -rf ${VEIANEW}/*.sh ;
 cp -rf ${VEIANEW}/veianew-master/* ${VEIANEW}/ ;
-chmod 775 ${VEIANEW}/*.sh ${VEIANEW}/*.vnw ;
-chown root.root ${VEIANEW}/*.sh ${VEIANEW}/*vnw ;
+chmod 775 ${VEIANEW}/* ;
+chown root.root ${VEIANEW}/* ;
 rm -rf ${VEIANEW}/master.zip ${VEIANEW}/veianew-master ;
 ln -s /usr/local/apache22/VEIANEW/veianew /bin/veianew ;
 echo -e "" &&
