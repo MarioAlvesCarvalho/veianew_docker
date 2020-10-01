@@ -24,4 +24,4 @@ echo -e "     ******************************************" &&
 echo -e "         Instalação do VEIANEW concluida!!!    " &&
 echo -e "            Execute o comando  'veianew'       " &&
 echo -e "     em qualquer lugar do terminal para usar!!!" &&
-echo -e "******************************************" ;
+echo -e "     ******************************************" ;
