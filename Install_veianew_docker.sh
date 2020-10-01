@@ -16,6 +16,7 @@ chmod 775 ${VEIANEW}/* ;
 chown root.root ${VEIANEW}/* ;
 rm -rf ${VEIANEW}/master.zip ${VEIANEW}/veianew-master ;
 ln -s /usr/local/apache22/VEIANEW/veianew /bin/veianew ;
+yum install rsync;
 echo -e "" &&
 echo -e "" &&
 echo -e "" &&
